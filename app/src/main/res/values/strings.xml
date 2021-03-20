@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Laridae</string>
+    <string name="toast">Post</string>
+    <string name="username">User Name</string>
+</resources>
