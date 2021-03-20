@@ -16,14 +16,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        username = findViewById(R.id.input_username)
+
         loginButton = findViewById(R.id.login_button)
+        username = findViewById(R.id.input_username)
 
         loginButton.setOnClickListener { login() }
     }
 
     private fun login(){
         val bonobo = username.text.toString()
-        Toast.makeText(baseContext, bonobo, Toast.LENGTH_LONG).show()
+        Toast.makeText(this, bonobo, Toast.LENGTH_LONG).show()
     }
 }
